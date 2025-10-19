@@ -1,0 +1,27 @@
+{
+  "name": "blogging-platform",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "description": "This is a RESTful API for a blogging platform built using **Node.js**, **Express**, and **MongoDB**. It allows users to register, log in, and perform CRUD operations on blog posts.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pragadeeshwari02/Blogging-Platform.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pragadeeshwari02/Blogging-Platform/issues"
+  },
+  "homepage": "https://github.com/Pragadeeshwari02/Blogging-Platform#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.1"
+  }
+}
